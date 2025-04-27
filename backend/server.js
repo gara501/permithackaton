@@ -2,7 +2,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
 import { ClerkExpressRequireAuth } from '@clerk/clerk-sdk-node';
-import { Permit } from "permitio";
+import { Permit } from 'permitio';
 import profileRoutes from './routes/profileRoutes.js';
 import roleRoutes from './routes/roleRoutes.js';
 

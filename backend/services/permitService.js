@@ -1,4 +1,4 @@
-import { Permit } from "permitio";
+import Permit from 'permitio';
 
 const permit = new Permit({
   // pdp: "https://cloudpdp.api.permit.io", // O la URL de tu PDP si tienes uno propio

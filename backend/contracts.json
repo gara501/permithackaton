@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "title": "Contrato de Desarrollo Web",
+    "description": "Desarrollo de sitio web corporativo para Cliente A.",
+    "status": "draft",
+    "signedBy": null
+  },
+  {
+    "id": "2",
+    "title": "Contrato de Servicios Legales",
+    "description": "Asesoría legal para Cliente B.",
+    "status": "pending",
+    "signedBy": null
+  },
+  {
+    "id": "3",
+    "title": "Contrato de Consultoría de TI",
+    "description": "Consultoría tecnológica para optimizar infraestructura.",
+    "status": "approved",
+    "signedBy": null
+  },
+  {
+    "id": "4",
+    "title": "Contrato de Marketing Digital",
+    "description": "Campaña de redes sociales para Producto C.",
+    "status": "draft",
+    "signedBy": null
+  },
+  {
+    "id": "5",
+    "title": "Contrato de Mantenimiento de Software",
+    "description": "Mantenimiento anual de sistema CRM.",
+    "status": "signed",
+    "signedBy": null
+  },
+  {
+    "id": "6",
+    "title": "Contrato de Traducción",
+    "description": "Traducción de manuales técnicos a inglés y francés.",
+    "status": "pending",
+    "signedBy": null
+  },
+  {
+    "id": "7",
+    "title": "Contrato de Outsourcing de Recursos Humanos",
+    "description": "Externalización del proceso de reclutamiento para empresa D.",
+    "status": "approved",
+    "signedBy": null
+  },
+  {
+    "id": "8",
+    "title": "Contrato de Producción Audiovisual",
+    "description": "Producción de video promocional para Cliente E.",
+    "status": "draft",
+    "signedBy": null
+  },
+  {
+    "id": "9",
+    "title": "Contrato de Diseño Gráfico",
+    "description": "Creación de material gráfico para campaña publicitaria.",
+    "status": "signed",
+    "signedBy": null
+  },
+  {
+    "id": "10",
+    "title": "Contrato de Auditoría Financiera",
+    "description": "Revisión y auditoría de estados financieros para Cliente F.",
+    "status": "pending",
+    "signedBy": null
+  },
+  {
+    "id": "1745903322737",
+    "title": "MyTestContract",
+    "description": "aasdasd",
+    "status": "unsigned",
+    "signedBy": null
+  },
+  {
+    "id": "1745903382417",
+    "title": "asdasdd",
+    "description": "aasdasd",
+    "status": "unsigned",
+    "signedBy": null
+  }
+]

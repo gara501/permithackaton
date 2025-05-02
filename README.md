@@ -142,3 +142,11 @@ const create = async (bodyData: unknown) => {
   }
 };
 ```
+
+## Some images of the application
+<img width="1430" alt="Screenshot 2025-05-01 at 11 49 33 PM" src="https://github.com/user-attachments/assets/d0fabb9c-ee90-457b-8273-5f01ab5301b5" />
+<img width="1422" alt="Screenshot 2025-05-01 at 11 49 25 PM" src="https://github.com/user-attachments/assets/bcf5ddbd-f94d-44eb-be00-ae150ac93966" />
+<img width="1419" alt="Screenshot 2025-05-01 at 11 48 59 PM" src="https://github.com/user-attachments/assets/1a7e3ec5-5279-4f9d-8517-87fb5955409a" />
+<img width="1420" alt="Screenshot 2025-05-01 at 11 48 47 PM" src="https://github.com/user-attachments/assets/575886ef-ef61-4e79-bc61-956f72c5cc08" />
+<img width="1441" alt="Screenshot 2025-05-01 at 11 49 15 PM" src="https://github.com/user-attachments/assets/730943bc-f337-4904-b975-eb68b622ef1b" />
+

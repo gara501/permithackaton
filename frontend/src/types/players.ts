@@ -1,9 +1,7 @@
 export interface Player {
   key: string;
-  first_name: string;
-  roles: PlayerRole[];
-  attributes: PlayerAttributes;
-  created_at: string;
+  name: string;
+  permissions: string[];
 }
 
 export interface PlayerRole {
@@ -13,4 +11,13 @@ export interface PlayerRole {
 
 export interface PlayerAttributes {
   type: string;
+}
+
+export interface Abilities {
+  [key: string]: Ability;
+}
+
+export interface Ability {
+  item: string;
+  actions?: string[];
 }

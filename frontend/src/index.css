@@ -2,3 +2,10 @@
 @plugin "daisyui" {
   themes: light --default, dark --prefersdark, dim;
 }
+
+@font-face {
+  font-family: "rpgfont";
+  src: url("./assets/fonts/KnightWarrior.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}

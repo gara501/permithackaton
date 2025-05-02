@@ -1,5 +1,3 @@
-// backend/routes/characters.js
-
 const express = require('express');
 const { permit } = require('../middlewares/permit.js'); // Importar middleware de permisos
 const { checkPermission } = require('../middlewares/checkPermission.js'); // Asegurarse de que el checkPermission también esté disponible
@@ -8,7 +6,7 @@ const router = express.Router();
 
 router.get('/', checkPermission('read', 'game'), async (req, res) => {
   try {
-    const players = await permit.api.users.list();
+    const players = await permit.api.roles.list();
     res.json(players);
 
   } catch (error) {

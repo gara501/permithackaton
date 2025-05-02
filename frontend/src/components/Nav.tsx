@@ -1,4 +1,3 @@
-import React from 'react';
 import { useClerk } from '@clerk/clerk-react';
 import { Link } from 'react-router-dom';
 
@@ -17,6 +16,10 @@ export function Nav() {
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
           <li><Link to="/">Dashboard</Link></li>
+          <li><Link to="/players">Config</Link></li>
+          <li><Link to="/game">Game</Link></li>
+          <li><Link to="/characters">Create Character</Link></li>
+          <li><Link to="/actions">Create Actions</Link></li>
           <li>
             <details>
               <summary>User</summary>

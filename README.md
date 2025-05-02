@@ -2,43 +2,41 @@
 
 ## Getting Started
 
-### Prerequisites
+## Prerequisites
 
-Node.js 22+
-Permit.io account and Api Key
-Clerk account and Secret and publishable Key.
+- Node.js 22+
+- Permit.io account and Api Key
+- Clerk account and Secret and publishable Key.
 
-### Installation
+## Installation
 
-Clone the repository
+- Clone the repository `git clone https://github.com/gara501/permithackaton.git`
 
-Install dependencies:
+- Install dependencies:
 
-Go to the root path and run:
+  - Go to the root path and run: `npm install`
 
-`npm install`
+## Set up environment variables
 
-Go inside "frontend" and "backend" folders and run:
+- Create .env files, in backend:
 
-`npm install`
-
-### Set up environment variables
-
-_Create .env files, in backend_:
+```
 PORT=3000
 PERMIT_API_KEY=
 CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
+```
 
-_Create .env file in frontend_:
+- Create .env file in frontend:
+
+```
 VITE_CLERK_FRONTEND_API=
 VITE_BACKEND_URL=http://localhost:3000
+```
 
 ## Running the applications
 
-Go to root path again and run:
-
-`npm run dev`
+- Go to root path again and run: `npm run dev`
 
 ## Access and functionality
 
@@ -47,10 +45,10 @@ Follow these steps:
 - Create a user in (clerk)[https://dashboard.clerk.com/]
 - Copy the User ID that Clerk's assign
 - Create the user the directory section in Permit IO, assign the User ID as Key.
-- Create different roles for each character you will have in the Game, in this case I have 4 (Elf, Wizard, Warrior, Dwarf)
+- Create different roles for each character you will have in the Game, in this case I have 4 (Elf, Wizard, Warrior, Dwarf), you could create them using the UI or using Permit IO.
 - Create a new resource named "game" with the usual actions: create, read, delete, update.
-- Create resources as abilities, for example: weapons.
-- Assign actions to this role, a weapon can be: Created, Used, Removed, Improved
-- Assign roles to these resources.
+- Create resources as abilities, for example: weapons, magic, etc.
+- Assign actions to each resource, example: use, invoke, etc.
+- Assign roles to these resources, you can do it using the UI too.
 
-Clerk user is necessary to login in the UI, this user is passed to the backend via Permit API.
+Clerk user is necessary to login in the UI, this user is passed to the backend via Permit API too
